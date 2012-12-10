@@ -1,15 +1,44 @@
+$friend_selector_width: 300px !default;
+
 .friend_selector{
   position:relative;
+  width: $friend_selector_width;
+
+  input{
+    outline: none;
+    font-size:1.5em;
+    padding: 0.3em 0.2em;
+    width: $friend_selector_width;
+    @include box-sizing(border-box);
+  }
 
   .friends{
     display:none;
     cursor: pointer;
-    .focus{
-      background-color:gray;
+    margin:0;
+    padding:0;
+
+    &:not(empty){
+      border: 1px solid gray;
     }
-    .selected{
-      background-color:blue;
+
+    li {
+      list-style-type: none;
+      display:block;
+
+      &:nth-child(2n+1){
+        background: #ccc;
+      };
+
+      &.focus{
+        background-color:gray;
+      }
+
+      &.selected{
+        background-color:blue;
+      }
     }
+
   }
 
 }
