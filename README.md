@@ -6,12 +6,11 @@ Provides a basic facebook friend selector.
 
 Add this line to your application's Gemfile:
 
-    gem 'friend_selector'
+    gem 'friend_selector', :git => 'git://github.com/Betapond/friend_selector.git'
 
 And then execute:
 
     $ bundle
-
 
 ## Usage
 
