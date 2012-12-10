@@ -1,0 +1,15 @@
+.friend_selector{
+  position:relative;
+
+  .friends{
+    display:none;
+    cursor: pointer;
+    .focus{
+      background-color:gray;
+    }
+    .selected{
+      background-color:blue;
+    }
+  }
+
+}
