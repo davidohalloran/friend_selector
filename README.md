@@ -15,6 +15,14 @@ And then execute:
 
 ## Usage
 
+  require friend selector in you application.js
+
+  `//= require friend_selector`
+
+  and require the stylesheet in your application.css.scss
+
+  `@import 'friend_selector';`
+
   The friend selector will give you a search box that you can use to select friends
   just add this html to your view:
 
