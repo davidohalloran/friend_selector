@@ -1,0 +1,5 @@
+en:
+  friend_selector:
+  search: Search for a friend
+  error:
+    selection_limit: You can select only one recipient at a time.
